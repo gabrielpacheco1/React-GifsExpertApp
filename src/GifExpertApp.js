@@ -17,8 +17,12 @@ export const GifExpertApp = () => {
     return (
             
         <>    
-            <div className="header"><h2>GifExpertApp</h2></div>
+            <div className="header">
+                <h2>GifExpertApp</h2>
+                <p className="autor">Gabriel Pacheco</p>
+            </div>
             <CategoryAdd setCategories= {setCategories}/>
+            <p className="busqueda">Presiona "Enter" para buscar</p>
             <hr />
             
             <ol>

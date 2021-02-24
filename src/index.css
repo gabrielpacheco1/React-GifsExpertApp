@@ -3,7 +3,7 @@
 }
 
 body {
-  padding: 60px;
+  padding: 55px;
 }
 
 input{
@@ -44,12 +44,27 @@ h4.categoria{
   color: rgb(38, 107, 197);
 }
 
-h2{
-  color: aliceblue;
+
+p.autor {
+  color: rgb(208, 224, 255);
+  text-align: right;
+  font-size: 80%;
+  position: relative;
+  bottom: 5px;
+  right: 5px;
+}
+
+p.busqueda{
+  color: grey;
+  font-size: 80%;
 }
 
 .header{
   background-color: rgb(38, 107, 197);
-  padding: 15px;
   margin-bottom: 2px;
+}
+
+.header h2{
+  padding: 15px;
+  color: aliceblue;
 }
